@@ -3,7 +3,7 @@ Simple library for coloring C programs at the windows prompt.
 
 ## supported colors
 | Background        | Font Color
-|:-----------------:|:-----------------:|
+|-------------------|-------------------|
 | BACK_BLACK        | FONT_BLACK        |
 | BACK_BLUE         | FONT_BLUE         |
 | BACK_GREEN        | FONT_GREEN        |
@@ -21,7 +21,7 @@ Simple library for coloring C programs at the windows prompt.
 | BACK_LIGHT_YELLOW | FONT_LIGHT_YELLOW |
 | BACK_LIGHT_WHITE  | FONT_LIGHT_WHITE  |
 
-## way of use
+### way of use
 ```c
 pprint(string, background color, font color);
 ```
