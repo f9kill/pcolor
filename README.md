@@ -2,8 +2,8 @@
 Simple library for coloring C programs at the windows prompt.
 
 | Background        | Font Color
-|-------------------|-------------------|
-| BACK_BLACK        | FONT_BLACK        |
+|:-----------------:|:-----------------:|
+| ![#00ff00](BACK_BLACK)        | FONT_BLACK        |
 | BACK_BLUE         | FONT_BLUE         |
 | BACK_GREEN        | FONT_GREEN        |
 | BACK_AQUA         | FONT_AQUA         |
