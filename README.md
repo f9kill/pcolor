@@ -1,9 +1,10 @@
 # pcolor
 Simple library for coloring C programs at the windows prompt.
 
+## supported colors
 | Background        | Font Color
 |:-----------------:|:-----------------:|
-| ![#00ff00](BACK_BLACK)        | FONT_BLACK        |
+| BACK_BLACK        | FONT_BLACK        |
 | BACK_BLUE         | FONT_BLUE         |
 | BACK_GREEN        | FONT_GREEN        |
 | BACK_AQUA         | FONT_AQUA         |
@@ -19,3 +20,22 @@ Simple library for coloring C programs at the windows prompt.
 | BACK_LIGHT_PURPLE | FONT_LIGHT_PURPLE |
 | BACK_LIGHT_YELLOW | FONT_LIGHT_YELLOW |
 | BACK_LIGHT_WHITE  | FONT_LIGHT_WHITE  |
+
+## way of use
+```c
+pprint(string, background color, font color);
+```
+
+### Example
+```c
+#include <stdio.h>
+#include "pcolor.h"
+
+int main(void)
+{
+    printf("Hello world\n");
+    pprint("Hello world\n", BACK_BLACK, FONT_LIGHT_GREEN);
+
+    return 0;
+}
+```
