@@ -40,7 +40,7 @@
 
 void pprint(char *phrase, int background_color, int font_color)
 {
-    HANDLE hStdout, hStdin;
+    HANDLE hStdout;
     hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
     CONSOLE_SCREEN_BUFFER_INFO consoleInfo;
     WORD savedAttributes;
